@@ -34,12 +34,12 @@ section {
 
 /* Gambar */
 .responsive-img {
-    max-width: 20%; /* Diubah dari 50% menjadi 20% agar lebih kecil */
+    max-width: 5%; /* Diubah dari 50% menjadi 20% agar lebih kecil */
     height: auto;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Dibuat sedikit lebih bulat agar aesthetic */
+    border-radius: 2px; /* Dibuat sedikit lebih bulat agar aesthetic */
     display: block;    /* Agar bisa diatur posisinya */
-    margin: 10px 0;    /* Memberi jarak atas dan bawah */
+    margin: 2,5px 0;    /* Memberi jarak atas dan bawah */
 }
 
 /* Tabel */
