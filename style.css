@@ -1,0 +1,117 @@
+/* Pengaturan Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    background-color: #fd8dca;
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section {
+    background: rgb(79, 142, 182);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Mengubah Warna Teks Khusus */
+.custom-color {
+    color: #354ebe;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Gambar */
+.responsive-img {
+    max-width: 20%; /* Diubah dari 50% menjadi 20% agar lebih kecil */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Dibuat sedikit lebih bulat agar aesthetic */
+    display: block;    /* Agar bisa diatur posisinya */
+    margin: 10px 0;    /* Memberi jarak atas dan bawah */
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #ff0066;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Formulir */
+.main-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Tombol */
+.btn-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}

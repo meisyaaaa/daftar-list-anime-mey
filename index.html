@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi Lengkap HTML5 & CSS3 - UMMI</title>
+    <style>
+        /* CSS untuk styling dasar dan warna teks */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            color: #000000;
+        }
+        .highlight {
+            color: #420202; /* Mengubah warna teks menjadi merah */
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Teknik Informatika UMMI</h1>
+        <h2>Belajar Struktur HTML5 Lengkap</h2>
+        <p>Halaman ini mendemonstrasikan berbagai tag HTML mulai dari teks hingga formulir.</p>
+    </header>
+
+    <hr>
+
+    <section>
+        <h3>Format Teks & Link</h3>
+        <p>
+            Di sini kita bisa menggunakan teks <b>tebal (bold)</b>, <i>miring (italic)</i>, atau 
+            <span class="highlight">teks berwarna merah menggunakan CSS</span>. <br>
+            Untuk informasi lebih lanjut, silakan kunjungi <a href="https://google.com" target="_blank">Google</a>.
+        </p>
+    </section>
+
+    <section>
+        <h3>Memasukkan Gambar</h3>
+        <img src="MTP.jpg" alt="Contoh Gambar Placeholder" style="border: 1px solid #ddd;">
+        <img src="Mairimashita!.Iruma-kun..jpg" alt="Contoh Gambar Placeholder" style="border: 2px solid #ddd;">
+    </section>
+
+    <section>
+        <h3>Daftar dan Bullet Point</h3>
+        <p>Daftar Teratur (Ordered List):</p>
+        <ol>
+            <li>Siapkan teks Editor</li>
+            <li>Tulis kode HTML</li>
+            <li>Buka di Browser</li>
+        </ol>
+
+        <p>Daftar Tidak Teratur (Unordered List):</p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Data Perkuliahan (Tabel)</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Mata Kuliah</th>
+                    <th>SKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Web</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sistem Operasi</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Formulir Pendaftaran Kuliah</h3>
+        <form action="#">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required placeholder="Masukkan nama...">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tgl">Tanggal Lahir:</label>
+            <input type="date" id="tgl" name="tgl">
+
+            <label for="warna">Pilih Warna Favorit:</label>
+            <input type="color" id="warna" name="warna">
+
+            <br><br>
+            <button type="submit">Kirim Data</button>
+        </form>
+    </section>
+
+    <footer>
+        <p align="center">&copy; 2024 Teknik Informatika UMMI</p>
+    </footer>
+
+    <button onclick="alert('halo informatika')">tombol submit</button>
+
+<script src="script.js"></script>
+</body>
+</html>
