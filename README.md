@@ -52,4 +52,6 @@ Prodi: Teknik Informatika - Universitas Muhammadiyah Sukabumi (UMMI)
 ```
 
 ### Tips untuk GitHub:
-1. selalu sabar yaa!
+1. Selalu sabar yaa!!!
+2, Selalu sabar aja,,,,
+3. Orang sabar di sayang tuhan,,,
