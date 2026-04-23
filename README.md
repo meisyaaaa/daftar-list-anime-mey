@@ -47,11 +47,9 @@ Dalam proyek ini, JavaScript digunakan untuk mendemonstrasikan konsep-konsep ber
 ![Screenshot Website](screenshoot.website/tampilan-4.png)
 ![Screenshot Website](screenshoot.website/tampilan-5.png)
 ---
-Dibuat oleh: [Nama Anda]  
-Instansi: Teknik Informatika - Universitas Muhammadiyah Sukabumi (UMMI)
+Dibuat oleh: [Meisya Amelia Putri]  
+Prodi: Teknik Informatika - Universitas Muhammadiyah Sukabumi (UMMI)
 ```
 
 ### Tips untuk GitHub:
-1.  Nama File: Simpan teks di atas dengan nama `README.md` di folder utama proyek Anda.
-2.  Screenshot: Sangat disarankan untuk mengunggah gambar hasil tampilan web Anda ke folder proyek (misalnya folder `img/`) lalu panggil di bagian "Tampilan Pratinjau" agar profil GitHub Anda terlihat lebih menarik.
-3.  Link Live: Jika Anda menggunakan GitHub Pages, tambahkan link websitenya di bagian deskripsi repositori.
+1. selalu sabar yaa!
